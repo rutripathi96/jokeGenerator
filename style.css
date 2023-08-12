@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to top right,#fdf0d5,#003049,#52796f);
+  
+}
+
+.header {
+    width: 100%;
+    height: 2.5em;
+    background: linear-gradient(to right, #48cae4,#fdf0d5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.7em;
+    letter-spacing: 0.2em;
+}
+
+.mainContent {
+    width: 90em;
+    height: 25em;
+    border: 2px solid black;
+    border-radius: 1em;
+    margin: 4em auto;
+    background: linear-gradient(to bottom right,#ffe5d9,#90e0ef);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainContent div {
+    align-items: center;
+}
+
+.mainContent p {
+    font-size: 2em;
+    font-weight: bolder;
+    
+}
+
+.mainContent button {
+    width: 10em;
+    height: 3em;
+    border-radius: 1em;
+    font-size: 1.5em;
+    
+}
+
+.mainContent button:hover {
+    box-shadow: 2px 2px 4px black;
+    
+}
+
+@media(min-width:200px) and (max-width:900px){
+    .mainContent {
+        width: 22em;
+        height: 24em;
+        border: 2px solid black;
+        border-radius: 1em;
+        margin: 4em auto;
+        background: linear-gradient(to bottom right,#ffe5d9,#90e0ef);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .mainContent p {
+        font-size: 1.3em;
+        font-weight: bolder;
+        text-align: center;
+        padding: 0.4em;
+    }
+
+    .mainContent button {
+        width: 5em;
+        height: 3em;
+        border-radius: 1em;
+        font-size: 1em;
+        
+    }
+}
